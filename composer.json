@@ -7,7 +7,10 @@
   ],
   "type": "library",  
   "require": {
-    "php": "^7.0"
+    "php": "^7.0",
+    "nmred/kafka-php": "0.2.*",
+    "monolog/monolog": "1.9.0",
+    "kmelia/monolog-stdout-handler": "^1.2"
   },
   "require-dev": {
     "php": "^7.0",
