@@ -65,6 +65,7 @@ class Producers
         if ($this->config->debugLogLevel) {
             $producer->setLogger($logger);
         }
+
         $producer->success(function ($result) {
             return true;
         });

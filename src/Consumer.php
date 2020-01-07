@@ -45,7 +45,7 @@ class Consumer
         $config->setMetadataRefreshIntervalMs($this->config->produceInterval);
         $config->setMetadataBrokerList($this->config->metadataBrokerList);
         $config->setGroupId($this->config->gropuId);
-        $config->setBrokerVersion($this->config->metadataBrokerList);
+        $config->setBrokerVersion($this->config->brokerVersion);
         $config->setTopics(array($this->config->toppic));
         $config->setOffsetReset($this->config->autoOffsetReset);
         $consumer = new \Kafka\Consumer();
